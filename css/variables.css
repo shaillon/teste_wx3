@@ -1,0 +1,10 @@
+:root {
+  --color-primary: antiquewhite;
+  --font-base: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--font-base);
+  background-color: var(--color-primary);
+}
+

@@ -1,0 +1,45 @@
+.depoimento {
+  background-color: black;
+  padding: 5rem 8rem;
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: antiquewhite;
+  }
+
+  h2 { 
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: antiquewhite;
+  }
+
+  .dep {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 1.5rem;
+  }
+
+  .separacao {
+    border: 1px solid #eee;
+    padding: 1rem;
+    text-align: center;
+
+    
+    h3 { margin: 0.5rem 0; font-size: 1.1rem; }
+
+    .dep2 {
+        display: flex;
+        img { 
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            border: solid 5px #ff8f26;
+        }
+        
+    }
+  }
+}
