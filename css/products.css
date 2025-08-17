@@ -3,6 +3,7 @@
   h2 { 
     margin-bottom: 1rem;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
   }
 
   .grid {
@@ -20,7 +21,7 @@
     h3 { margin: 0.5rem 0; font-size: 1.1rem; }
     .price { color: --color-primary; font-weight: bold; }
     .btn-buy {
-      background: --color-primary;
+      background: #5a5a5a;
       color: #fff;
       border: none;
       padding: 0.5rem 1rem;
